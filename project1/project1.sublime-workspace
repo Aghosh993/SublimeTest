@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"USE",
+				"USE_BMP_VCP"
+			],
+			[
+				"GPIO",
+				"GPIO_PIN_11"
+			],
+			[
+				"GPI",
+				"GPIO_Pin"
+			],
+			[
+				"GP",
+				"GPIO_PIN_0"
+			],
+			[
+				"boar",
+				"board_led"
+			],
+			[
+				"TOOL",
+				"TOOLCHAIN_ROOT"
+			],
+			[
+				"uart",
+				"uart_test"
+			],
+			[
+				"output",
+				"pwm3_output"
+			],
+			[
+				"tms",
+				"tms570"
+			],
+			[
+				"PR",
+				"PROJ_BASE_NAME"
+			],
+			[
+				"with-en",
+				"with-endian"
+			],
+			[
+				"LE",
+				"LED2"
+			],
+			[
+				"board",
+				"board_led_off"
+			],
+			[
+				"L",
+				"LED1"
+			],
+			[
+				"boa",
+				"board_led_off"
+			],
+			[
+				"HAL",
+				"HAL_GPIO_TogglePin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "List",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"List",
+					""
+				],
+				[
+					"Packages/User/athena_clean.sublime-build",
+					""
+				],
+				[
+					"Packages/User/load_bmp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/makefile_clean.sublime-build",
+					""
+				],
+				[
+					"Packages/User/makefile_deploy.sublime-build",
+					""
+				],
+				[
+					"Packages/User/makefile_dumb.sublime-build",
+					""
+				],
+				[
+					"Packages/User/tms570_xds.sublime-build",
+					""
+				]
+			],
+			[
+				"List",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"last_filter": "write",
+		"selected_items":
+		[
+			[
+				"write",
+				"Serial Monitor: Write Line"
+			],
+			[
+				"serial ",
+				"Serial Monitor: Connect"
+			],
+			[
+				"serial",
+				"Serial Monitor: Connect"
+			],
+			[
+				"wri",
+				"Serial Monitor: Write Line"
+			],
+			[
+				"seri",
+				"Serial Monitor: Connect"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/aghosh01/SublimeTest/project1/main.cpp",
+		"/home/aghosh01/SublimeTest/project1/project1.sublime_project",
+		"/home/aghosh01/guidance_daq/user_source/hal_interface/cube_hal_msp.c",
+		"/home/aghosh01/.config/sublime-text-3/Packages/User/load_bmp.sublime-build",
+		"/home/aghosh01/testf3_s/testf3_s.c",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_stdperiph_basic_app/runme_bmp.gdb",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_basic_app/Makefile",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_stdperiph_basic_app/Makefile",
+		"/home/aghosh01/testf3/testf3.c",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_basic_app/runme_bmp.gdb",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_basic_app/runme.gdb",
+		"/home/aghosh01/Athena/board/hercules_tms570LS12x/README.md",
+		"/home/aghosh01/Athena/arch/tivaware_tm4c/README.md",
+		"/home/aghosh01/Athena/arch/stm32/README.md",
+		"/home/aghosh01/Athena/arch/stm32_stdperiph/README.md",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_source/hal_interface/board_led.c",
+		"/home/aghosh01/Athena/board/hercules_tms570LS12x/inc/gio.h",
+		"/home/aghosh01/Athena/board/hercules_tms570LS12x/src/gio.c",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_include/hal_interface/hal_common_includes.h",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_include/hal_interface/cpu_hal_interface.h",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_include/hal_interface/board_led.h",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_source/hal_interface/notification.c",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/user_source/hal_interface/cpu_hal_interface.c",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/Makefile",
+		"/home/aghosh01/NYU_Cubesat_Repos/FlightSoftware/tms570_launchpad_tester/tms570_launchpad_tester.map",
+		"/home/aghosh01/NYU_Cubesat_Repos/FlightSoftware/Athena/board/hercules_tms570LS12x/src/sys_intvecs.s",
+		"/home/aghosh01/NYU_Cubesat_Repos/FlightSoftware/tms570_launchpad_tester/user_source/hal_interface/imu_hal.c",
+		"/home/aghosh01/.config/sublime-text-3/Packages/User/athena_clean.sublime-build",
+		"/home/aghosh01/.config/sublime-text-3/Packages/User/tms570_xds.sublime-build",
+		"/home/aghosh01/stm_iface_test/stm32f3discovery.cfg",
+		"/home/aghosh01/NYU_Cubesat_Repos/FlightSoftware/tms570_launchpad_tester/tms570_launchpad_tester.c",
+		"/home/aghosh01/Athena/linux_osx/README.md",
+		"/home/aghosh01/Athena/README.md",
+		"/home/aghosh01/Athena/arch/stm32/f3/src/stm32f3xx_hal_gpio.c",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_hal_gpio.h",
+		"/home/aghosh01/stm_iface_test/user_include/hal_interface/sonar_hal.h",
+		"/home/aghosh01/stm_iface_test/user_include/sonar.h",
+		"/home/aghosh01/stm_iface_test/user_source/sonar.c",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/sonar_hal.c",
+		"/home/aghosh01/Athena/arch/stm32/f3/src/stm32f3xx_hal.c",
+		"/home/aghosh01/stm_iface_test/user_include/hal_interface/board_led.h",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_hal.h",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_hal_conf.h",
+		"/usr/include/bits/mathcalls.h",
+		"/usr/include/stdio.h",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/uart_hal.c",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/robot_pwm.c",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/cube_hal_msp.c",
+		"/home/aghosh01/Athena/arch/stm32/f3/src/stm32f3xx_hal_msp.c",
+		"/home/aghosh01/stm_iface_test/Makefile",
+		"/home/aghosh01/QuadcopterCodebase/testbed_app/testbed_sw_app_main.c",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/cpu_hal_interface.c",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/newlib_stubs.c",
+		"/home/aghosh01/Athena/arch/stm32/f3/src/CMSIS/startup_stm32f303xc.s",
+		"/home/aghosh01/QuadcopterCodebase/libopencm3/lib/libopencm3_stm32f3.ld",
+		"/home/aghosh01/Downloads/STM32Cube_FW_F3_V1.7.0/Projects/STM32F3-Discovery/Examples/GPIO/GPIO_IOToggle/TrueSTUDIO/STM32F3-Discovery/STM32F303VC_FLASH.ld",
+		"/home/aghosh01/Athena/linux_osx/mkproject.sh",
+		"/home/aghosh01/stm_iface_test/linker.ld",
+		"/home/aghosh01/stm_iface_test/user_include/hal_interface/cpu_hal_interface.h",
+		"/home/aghosh01/git/Trinity2013/STM32F3x/src/startup_stm32f30x.S",
+		"/home/aghosh01/Athena/arch/stm32_stdperiph/f3/src/CMSIS/startup_stm32f30x.s",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_hal_uart.h",
+		"/home/aghosh01/Athena/arch/stm32/f3/src/stm32f3xx_hal_uart.c",
+		"/home/aghosh01/stm_iface_test/user_include/uart.h",
+		"/home/aghosh01/stm_iface_test/user_source/uart.c",
+		"/home/aghosh01/stm_iface_test/user_include/hal_interface/uart_hal.h",
+		"/home/aghosh01/stm_iface_test/user_include/hal_interface/hal_common_includes.h",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/CMSIS/cmsis_gcc.h",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/arch/stm32/f3/src/stm32f3xx_hal_tim.c",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/arch/stm32/f3/inc/stm32f3xx_hal_tim.h",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/demo6/demo6.c",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/demo6/user_include/hal_interface/board_led.h",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/demo6/user_include/hal_interface/robot_pwm.h",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/demo4/demo4.s",
+		"/home/aghosh01/EL6483_EmbeddedSystems/build_tools/arctic_awesomeness/arch/stm32/f3/inc/stm32f3xx_hal_rcc_ex.h",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_hal_gpio_ex.h",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/robot_pwm.h",
+		"/home/aghosh01/stm_iface_test/user_source/hal_interface/.clang_complete",
+		"/home/aghosh01/stm_iface_test/stm_iface_test.c",
+		"/home/aghosh01/Athena/arch/stm32/f3/inc/stm32f3xx_ll_tim.h",
+		"/home/aghosh01/stm_iface_test/.clang_complete",
+		"/home/aghosh01/TrinityCodebase/Athena/arch/stm32/f3/src/CMSIS/system_stm32f3xx.c",
+		"/home/aghosh01/TrinityCodebase/Athena/arm-none-eabi-gcc_5_4_BE/gcc-arm-none-eabi-5_4-2017q1_BE_LINUX/share/gcc-arm-none-eabi/samples/src/fpin/fpin.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/Makefile",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/stm32f3discovery.cfg",
+		"/home/aghosh01/TrinityCodebase/Athena/linux_osx/f3discovery_stdperiph_basic_app/f3discovery_stdperiph_basic_app.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/interrupt_handlers.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/stm32f3_discovery_l3gd20.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/pwm.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/encoder.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/debug.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/common_headers.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_include/hal_interface/analog_sensors.h",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/stm32f3_discovery_l3gd20.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/Theseus_2013_2016.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/encoder.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/debug.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/pwm.c",
+		"/home/aghosh01/TrinityCodebase/Theseus_2013_2016/user_source/hal_interface/newlib_stubs.c",
+		"/home/aghosh01/Athena/linux_osx/setup_scripts_osx/setup.sh",
+		"/home/aghosh01/NYU_Cubesat_Repos/FlightSoftware/README.md",
+		"/home/aghosh01/Athena/linux_osx/setup_scripts/README.md",
+		"/home/aghosh01/Athena/linux_osx/setup_scripts/setup.sh",
+		"/home/aghosh01/Athena/linux_osx/f4discovery_basic_app/Makefile",
+		"/home/aghosh01/Athena/linux_osx/ap2v4_basic_app/Makefile",
+		"/home/aghosh01/Athena/linux_osx/tm4c_launchpad_basic_app/Makefile",
+		"/home/aghosh01/Athena/linux_osx/f4discovery_stdperiph_basic_app/Makefile",
+		"/home/aghosh01/Athena/linux_osx/test/Makefile",
+		"/home/aghosh01/Downloads/gcc-arm-none-eabi-5_4-2016q3-20160926/build-toolchain.sh",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/.clang_complete",
+		"/home/aghosh01/Athena/linux_osx/tms570_hercules_basic_app/runme.gdb",
+		"/home/aghosh01/Athena/linux_osx/rename_project.sh",
+		"/home/aghosh01/Athena/linux_osx/rename_project_osx.sh",
+		"/home/aghosh01/Athena/linux_osx/mkproject_osx.sh",
+		"/home/aghosh01/Athena/linux_osx/tm4c_launchpad_basic_app/runme_icdi.gdb",
+		"/home/aghosh01/Athena/linux_osx/test/test.c",
+		"/home/aghosh01/Athena/linux_osx/test/user_include/hal_interface/cpu_hal_interface.h",
+		"/home/aghosh01/Athena/linux_osx/test/runme_icdi.gdb",
+		"/home/aghosh01/Athena/linux_osx/test/user_source/hal_interface/board_led.c",
+		"/home/aghosh01/Athena/linux_osx/f3discovery_basic_app/f3discovery_basic_app.c",
+		"/home/aghosh01/Athena/arch/tivaware_tm4c/driverlib/gpio.c",
+		"/home/aghosh01/Athena/arch/tivaware_tm4c/driverlib/gpio.h",
+		"/home/aghosh01/Athena/linux_osx/test/user_include/hal_interface/board_led.h",
+		"/home/aghosh01/Athena/linux_osx/test/load_fw_icdi.sh",
+		"/home/aghosh01/Athena/linux_osx/setup_scripts/51-ti_icdi.rules",
+		"/home/aghosh01/Athena/linux_osx/test/runme.gdb",
+		"/home/aghosh01/Athena/linux_osx/test/load_fw.sh",
+		"/home/aghosh01/Athena/linux_osx/tm4c_launchpad_basic_app/user_source/hal_interface/board_led.c"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main",
+			"EAFFFFFE",
+			"resetE",
+			"svc",
+			"undef",
+			"0000000000004",
+			"00000000000004",
+			"000000000000004",
+			"0x000000000000004",
+			"0x0000000000000004",
+			"main",
+			"rdi",
+			"nosys",
+			"nvic",
+			"libc",
+			"fpu",
+			"HAL_UART_Transmit",
+			"msp",
+			"__TIM1_",
+			"tim1_",
+			"af",
+			"af2",
+			"HAL_TIM_PWM_MspInit",
+			"TIM_HandleTypeDef",
+			"homing",
+			"update_pid",
+			"EXTI9_5_IRQHandler",
+			"ADC3_IRQHandler",
+			"DMA2_Channel1_IRQHandler",
+			"DMA1_Channel1_IRQHandler",
+			"ADC1_2_IRQHandler",
+			"TIM1_TRG_COM_TIM17_IRQHandler",
+			"ENABLE_FIREFIGHTING",
+			"pwm3",
+			"sound",
+			"FIREFIGHT",
+			"firefight",
+			"pwm3",
+			"debug_so",
+			"FIREFIGHT",
+			"arm_cfft_radix4_f32",
+			"fft",
+			"arm_cfft_radix4",
+			"ENABLE_FIREFIGHTING",
+			"ENABLE_FIR",
+			"ATHENA_PATH",
+			"athroot",
+			"gcc-final",
+			"CFLAGS_FOR_TARGET",
+			"-mbig-endian",
+			"gcc-first",
+			"GPIO_PIN_3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project1.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
